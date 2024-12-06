@@ -8,29 +8,29 @@
 }
 
 .container{
-    background-color: #e9e9e9;
-    height: 100%;
-    width: 100%;
+    background-color: #fff;
     display: flex;
     flex-direction: row;
 }
+
+
 
 .qr-img{
     width: 350px;
     height: 350px;
     padding: 5rem;
-    margin: 15px 200px 225px 100px;
+    margin: 150px 200px 225px 150px;
 }
 
 .vertical-line{
-    margin: 50px;
+    margin-top: 100px;
     height: 500px;
     width: 4px;
     background-color: #0b7fce;
 }
 
 .login{
-    margin: 15px 100px 15px;
+    margin: 150px 150px 150px;
     padding: 100px;
 }
 .name-inst{
@@ -49,6 +49,7 @@ hr{
 .name-full-inst{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #000000;
+    padding: auto;
 }
 
 .sign-up{
@@ -88,7 +89,7 @@ button{
 }
 
 button:hover{
-    background-color: #0b7f;
+    background-color: #2eaafd;
     padding: 15px;
     font-size: 1.2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -100,5 +101,5 @@ button:hover{
     height: 100px;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 640px;
+    margin-top: 700px;
 }
